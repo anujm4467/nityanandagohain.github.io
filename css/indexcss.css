@@ -25,7 +25,7 @@ ul {
 /* Header */
 header {
     background: #455A64;
-    color: #ffffff;
+    color: #aaaaaa;
     padding-top: 30px;
     min-height: 70px;
     border-bottom: #BDBDBD 3px solid;
@@ -49,8 +49,9 @@ header #branding {
     float: left;
 }
 
-header #branding h1{
-    margin: 0;
+header #branding img{
+    width: 90px;
+    border-radius: 20px;
 }
 
 header nav {
@@ -59,7 +60,7 @@ header nav {
 }
 
 header .highlight, header .current a{
-    color: #e8491d;
+    color: #08acc2;
     font-weight: bold;
 }
 
@@ -77,7 +78,7 @@ header a:hover{
     background: url(../img/showcase.jpg); 
 
     /* Minimum height of the image is 400 px*/
-    min-height: 400px;
+    min-height: 450px;
 
     /*center and scale the image properly*/
     background-position: center;
@@ -86,7 +87,7 @@ header a:hover{
 
     /* the whole showcase text */
     text-align: center;
-    color: #ffffff;
+    color: #000000;
 }
 
 /* Showcase id's first h1 text */
@@ -100,5 +101,34 @@ header a:hover{
 #showcase p {
     font-size: 20px;
 }
+
+    
+    
+/* Boxes */
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .icons{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .icons img{
+    width: 90px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8e8e8;
+    text-align: center;
+}
+
+
 
 
