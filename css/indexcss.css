@@ -1,4 +1,5 @@
 
+/* Global */
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -8,7 +9,6 @@ body {
     background: #FFFFFF;
 }
 
-/* Global */
 .container {
     width: 80%;
     margin: auto;
@@ -72,11 +72,33 @@ header a:hover{
 
 /* Showcase */
 #showcase {
-    min-height: 400px;
-    background: url(../img/showcase.jpg); 
-    height: 100%;
 
+    /* Image Used */
+    background: url(../img/showcase.jpg); 
+
+    /* Minimum height of the image is 400 px*/
+    min-height: 400px;
+
+    /*center and scale the image properly*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    /* the whole showcase text */
+    text-align: center;
+    color: #ffffff;
 }
+
+/* Showcase id's first h1 text */
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+/*showcase id's paragaph text */
+#showcase p {
+    font-size: 20px;
+}
+
+
