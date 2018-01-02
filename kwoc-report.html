@@ -5,98 +5,264 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NITYANANDA | KWoC</title>
+
+<!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script> 
+<!-- /Bootstrap -->
+
+    <!-- css -->
     <link rel="stylesheet" href="./css/kwocstyle.css">
+
+    <!-- google fonts -->
     <link href='https://fonts.googleapis.com/css?family=Alike Angular' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">  
+    
+
 </head>
+
+
 <body>
+
+<!-- Navbar fixed at top -->
+    <nav class="navbar navbar-inverse fixed-top navbar-expand-lg navbar-primary bg-dark">
+    <!-- Navbar Left Items -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home</a>
+            </li>
+        </ul>
+
+    <!-- Navbar Right Items -->
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#pull_rq">PR's</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#sum">Summary</a>
+            </li>
+        </ul>
+    </nav>
+<!-- Navbar Completed -->
+
     <h1> Kharagpur Winter of Code (KWoC'17) - Report</h1>
-    <h3> Nityananda Gohain (@nityanandagohain)</h3>
-    <h3> Projects Involved - <a href="">AirHockey</a></h3>
-    <h3> Mentor - Aniq Ur Rahman(@Aniq55)</h3>
+    <h3> Nityananda Gohain (<a href="https://github.com/nityanandagohain">@nityanandagohain</a>)</h3>
+    <h4> Tezpur University(2016-2020)</h4>
+    <br>
+    <h3> Projects Involved - <a href="https://github.com/NITDgpOS/AirHockey">AirHockey</a></h3>
+    <h3> Mentor - Aniq Ur Rahman(<a href="https://github.com/Aniq55">@Aniq55</a>)</h3>
 
     <!-- Abot Kwoc -->
-    <h2>About KWoC</h2>
+    <span class="anchor" id="about"></span>
+    <h2 >About KWoC</h2>
     <p>
-    It is an initiative taken by KOSS,IITKgp for students who are new to open source development,
-    to get them involved during the winter vacations and break the ice of Open Source contributions.
-    All of the work is done in <a href="https://github.com">Github</a>.  
+        It is an initiative taken by KOSS,IITKgp for students who are new to open source development,
+        to get them involved during their winter vacations and break the ice of Open Source contributions.
+        All of the work is done in <a href="https://github.com">Github</a>.  
     </p>
 
-    <p>
     <h2>AirHockey</h2>
-    It is a game built in python using the pygame library. In this month I have solved more than 
-    10 issues on github. 
+    <p>
+        It is a game built in python using the pygame library.
     </p>
 
-    <p>
-        <h2>Pull Requests</h3>
-        <div class="pull_rqs">
-            <p>
-                <div class="headings">PR 1 <a href="https://github.com/NITDgpOS/AirHockey/pull/40">#40</a></div>
-                    In this PR,I changed the color of the table  and updated the readme with a newly taken screenshot.  
-            </p>
-            <p>
-                <div class="headings">PR 2 <a href="https://github.com/NITDgpOS/AirHockey/pull/49">#49</a></div>
-                    In this PR,I canged the paddle to a concentric circle and also increases the puck and paddle sizes 
-                    so that they can be differentiated easily.
-                <img src="./img/kwoc/pr2.png"  width="30%" height="30%"> 
-            </p>
-            <p>
-                <div class="headings">PR 3 <a href="https://github.com/NITDgpOS/AirHockey/pull/52">#52</a></div>
-                    In this PR,I created a new file named as startScreen.py. In this file i have implement a screen which 
-                    will launch while launching the game.
-                <img src="./img/kwoc/pr3.png" width="30%" height="30%">
-            </p>
-            <p>
-                <div class="headings">PR 4 <a href="https://github.com/NITDgpOS/AirHockey/pull/107">#107</a></div>
-                    In this PR, I added option to choose paddle colors for each player in the start-screen.<br>
-                <img src="./img/kwoc/pr4.png" width="30%" height="30%">
-            </p>
-            <p>
-                <div class="heading">PR 5 <a href="https://github.com/NITDgpOS/AirHockey/pull/127">#127</a></div>
-                    In this PR, I added buttons for reset, continue and exit in pause-screen.<br>
-                <img src="./img/kwoc/pr5.png" width="30%" height="30%">
-            </p>
-            <p>
-                <div class="heading">PR 6 <a href="https://github.com/NITDgpOS/AirHockey/pull/142">#142</a></div>
-                    In this PR, I created a new file named themeScreen.py which will be launched after the start-screen
-                    so that the player can select a praticular theme(background).
-                <img src="./img/kwoc/pr6.png" width="30%" height="30%">
-            </p>
-            <p>
-                <div class="headings">PR 7 <a href="https://github.com/NITDgpOS/AirHockey/pull/158">#150</a></div>
-                    In this PR, I made "Airhockey" flashy in the start screen"
-            </p>
-            <p>
-                <div class="headings">PR 8 <a href="https://github.com/NITDgpOS/AirHockey/pull/160">#160</a></div>
-                    In this PR, I removed a code which was repeated in the themeScreen.py file and used a for loop.
-            </p>
-            <p>
-                <div class="headings">PR 9 <a href="https://github.com/NITDgpOS/AirHockey/pull/172">#172</a></div>
-                    In this PR, I fixed a bug . The music while playing the game doesnot replayed itself in a loop 
-                    i fixed it.
-            </p>
-            <p>
-                <div class="headings">PR 10 <a href="https://github.com/NITDgpOS/AirHockey/pull/173">#173</a></div>
-                    In this PR, I created an ingame help screen which contains info about how to play the game.<br>
-                <img src="./img/kwoc/pr10.png" width="30%" height="30%">
-            </p>
-            <p>
-                <div class="headings">PR 11 <a href="https://github.com/NITDgpOS/AirHockey/pull/175">#175</a></div>
-                Previously players were not notified when a round is changed it was just chnged directly .I fixed 
-                in this PR.
-                <img src="./img/kwoc/pr11.png" width="30%" height="30%">
-            </p>
-            <p>
-                <div class="headings">PR 12 <a href="https://github.com/NITDgpOS/AirHockey/pull/177">#177</a></div>
-                In this bug the sound of "hit" and "goal" played when the sound is muted in the game. Thid PR fixed that.
-            </p>
-            <p>
-                <div class="headings">PR 13 <a href="https://github.com/NITDgpOS/AirHockey/pull/182">#182</a></div>
-                This is one of the best issues I solved. In this PR option to add plyer name is added.
-                <img src="./img/kwoc/pr13.png" width="30%" height="30%">
+    <span class="anchor" id="pull_rq"></span>
+    <h2>Pull Requests</h3>
+    <hr>
+    <div class="pull_rqs">
+        
+        <div class="main">
+            <p>   
+                <div class="headings">PR 1 <a href="https://github.com/NITDgpOS/AirHockey/pull/40" target="_blank">#40</a></div>
+                <img src="./img/kwoc/pr1.png" class="image">
+                <div class="pr_text">  
+                    This was my first PR I just updated the color of the table and updated the readme with a newly taken screenshot.
+                    I also got a bit familiar with the codebase.By this time I started to read pygame documentation .  
+                </div>
             </p>
         </div>
+
+        <hr>
+
+        <div class="main">
+            <p>
+                <div class="headings">PR 2 <a href="https://github.com/NITDgpOS/AirHockey/pull/49" target="_blank">#49</a></div>
+                <img src="./img/kwoc/pr2.png" class="image">
+                <div class="pr_text">
+                    Initially the paddle's were rectangular in shape and size of the puck was small.
+                    In this PR,I canged the paddle to a concentric circle to make it more natural and also increased the puck 
+                    size.
+                </div>
+            </p>
+        </div>
+
+        <hr>
+
+        <div class="main">
+            <p>
+                <div class="headings">PR 3 <a href="https://github.com/NITDgpOS/AirHockey/pull/52" target="_blank">#52</a></div>
+                <img src="./img/kwoc/pr3.png" class="image">
+                <div class="pr_text">
+                    We had to create a start-screen because the gameplay starts directly after launching the game.So I worked on this issue 
+                    and it was a  challenging one and  till then i havent done something that advance.So it was quite an experience .
+                    I created a new file named as startScreen.py and I had implemented a screen which will show up  first
+                    when the game is launched.
+                </div>
+            </p>
+        </div>
+        
+        <hr>
+
+        <div class="main">
+            <p>
+                <div class="headings">PR 4 <a href="https://github.com/NITDgpOS/AirHockey/pull/107" target="_blank">#107</a></div>
+                <img src="./img/kwoc/pr4.png" class="image">
+                <div class="pr_text">
+                    While playing the game there used to be a default color of paddle which cannot be changed. So i added option to
+                    choose paddle colors for both the players in the startscreen which looked quite empty previously.
+                </div>
+            </p>
+        </div>
+     
+        <hr>
+
+        <div class="main">
+            <p>
+                <div class="headings">PR 5 <a href="https://github.com/NITDgpOS/AirHockey/pull/127" target="_blank">#127</a></div>
+                <img src="./img/kwoc/pr5.png" class="image">
+                <div class="pr_text">
+                    The game can be paused in the middle but it lacked some features like reset, exit so in this PR i implemented
+                    buttons in the pause-screen to reset, continue and exit. I also coloured all the three of them.
+                </div>
+            </p>
+        </div>
+
+        <hr>
+
+        <div class="main">
+            <p>
+                <div class="headings">PR 6 <a href="https://github.com/NITDgpOS/AirHockey/pull/142" target="_blank">#142</a></div>
+                <img src="./img/kwoc/pr6.png" class="image">
+                <div class="pr_text">
+                    The game had option to choose paddle color but there was no option to choose the table background(theme) .
+                    I created a new file names themeScreeb.py and added four options so that one of the user can select the theme.
+                    It appers right after the start-screen.
+                </div>
+            </p>
+        </div>
+    
+        <hr>
+
+        <div class="main">
+            <p>
+                <div class="headings">PR 7 <a href="https://github.com/NITDgpOS/AirHockey/pull/158" target="_blank">#150</a></div>
+                <div class="pr_text">
+                    So by this time <a href="https://github.com/thealphadollar">@thealphadollar</a> had implemented an end screen
+                    where the winner name was flashing. So in this pr I implemented the same concept to the AirHockey logo in the
+                    start-screen and made it flashing.
+                </div>
+            </p>
+        </div>
+        
+        <hr>
+
+        <div class="main">
+            <p>
+                <div class="headings">PR 8 <a href="https://github.com/NITDgpOS/AirHockey/pull/160" target="_blank">#160</a></div>
+                <img src="./img/kwoc/pr8.png" class="image">
+                <div class="pr_text">
+                    In the themeScreen.py previously i wrote seperate code for all the four options of background. So i reduced it
+                    by storing the required (x/y) values in an array and used a for loop to iterate over it. Now the code was much
+                    neat than the previous one. 
+                </div>
+            </p>
+        </div>
+        
+        <hr>
+
+        <div class="main">
+            <p>
+                <div class="headings">PR 9 <a href="https://github.com/NITDgpOS/AirHockey/pull/172" target="_blank">#172</a></div>
+                <div class="pr_text">
+                        In the game we had an background music so while playing the game if the music finishes the music didn't 
+                        replayed in a loop so this PR fixed that issue and now the backround music played in a loop.
+                </div>
+            </p>
+        </div>
+            
+        <hr>
+
+        <div class="main">
+            <p>  
+                <div class="headings">PR 10 <a href="https://github.com/NITDgpOS/AirHockey/pull/173" target="_blank">#173</a></div>
+                <img src="./img/kwoc/pr10.png" class="image">
+                <div class="pr_text">
+                    Our game was lacking an ingame help which can be used by new players. So i created an ingame help which can be
+                    accessed from the start-screen by clicking on the info button.
+                </div>
+            </p>
+        </div>
+        
+        <hr>
+
+        <div class="main">
+            <p>
+                <div class="headings">PR 11 <a href="https://github.com/NITDgpOS/AirHockey/pull/175" target="_blank">#175</a></div>
+                <img src="./img/kwoc/pr11.png" class="image">
+                <div class="pr_text">
+                    While playing the game when a round is completed it wasn't notified to the player it was changed directly so this 
+                    PR solved that issue and whenever a round is changed it is notified to the players.
+                </div>
+            </p>
+        </div>
+
+        <hr>
+
+        <div class="main">
+            <p>
+                <div class="headings">PR 12 <a href="https://github.com/NITDgpOS/AirHockey/pull/177" target="_blank">#177</a></div>
+                <div class="pr_text">
+                    The game had an option to mute the music but after pressing mute the background music stop's playing but in the 
+                    game the sound of hitting the puck and scoring a goal was still played so this PR fixed that bug in the game.
+                </div>
+            </p>
+        </div>
+
+        <hr>
+
+        <div class="main">
+            <p>
+                <div class="headings">PR 13 <a href="https://github.com/NITDgpOS/AirHockey/pull/182" target="_blank">#182</a></div>
+                <img src="./img/kwoc/pr13.png" class="image">
+                <div class="pr_text">
+                    This was the most intersting issue i have sloved. So there was no option to add player name in the game
+                    so when i searched for some gui input taking method in the pygame library i couldn't find any. But with some 
+                    help from <a href="https://github.com/thealphadollar">@thealphadollar</a> and my Mentor i was able to do it
+                    and it was quite fun.
+                </div>
+            </p>
+        </div>
+    </div>
+ 
+    <span class=".anchor" id="sum"></span>
+    <h2>Summary</h3>
+    <p>
+        So overall KWoC was a great experience i learned a lot got to know a lot of people with similar interest. 
+        I thank my mentor <a href="https://github.com/Aniq55">@Aniq55</a> who was quite supportive through the entire program.
+        And shoutout to the KWoC team, you all are great, thank you for organizing such a great event.
     </p>
 </body>
 </html>
