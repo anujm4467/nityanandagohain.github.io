@@ -27,7 +27,7 @@ h3 {
     font-size:        25px;
 }
 
-.pull_rqs {
+.main_data {
     font-family:      'Slabo 27px', serif;
     font-size:        25px;
 }
@@ -49,12 +49,24 @@ h3 {
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 135px;
-    margin-left:  4%
+    margin-left:  4%;
 }
 
-.pr_text {
+.main_second {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-left:  4%;
+}
+
+.main_text {
     margin-left: 2%;
     margin-right: 35%;
+}
+
+.main_text_2 {
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 
