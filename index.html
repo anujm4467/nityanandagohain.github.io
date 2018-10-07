@@ -4,205 +4,106 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<title>Portfolio|Nityananda Gohain</title>
-	<script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
-	<link rel="stylesheet" href="bower_components/foundation-sites/dist/css/foundation.min.css">
-	<link rel="stylesheet" href="">
-	<script src="bower_components/foundation-sites/dist/js/foundation.min.js" charset="utf-8"></script>
-	<script src="bower_components/normalize-css/normalize.css" charset="utf-8"></script>
-	<script src="bower_components/typed.js/dist/typed.min.js" charset="utf-8"></script>
-	<script src="bower_components/jqcloud2/dist/jqcloud.min.js" charset="utf-8"></script>
-	<link rel="stylesheet" href="bower_components/jqcloud2/dist/jqcloud.min.css">
-	<script src="bower_components/custombox/dist/custombox.min.js"></script>
-	<link href="bower_components/custombox/dist/custombox.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500" rel="stylesheet">
-	<link rel="stylesheet" href="assets/fonts/foundation-icons/foundation-icons.css">
-	<link rel="stylesheet" href="assets/styles/styles.css">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
 
-<body>
-	<div class="wrapper">
-		<section id="about">
-			<div class="row">
-				<div class="small-12 large-8 large-offset-2 columns text-center">
-					<img class="img-circle" src="https://avatars0.githubusercontent.com/u/26831659?s=460&v=4" alt="headshot">
-					<div class="details">
-						<h2>Hi, I'm Nityananda.. I..<br> <span id="writing-text"><span></h2>
+<body class="is-preload">
+
+	<!-- Wrapper-->
+	<div id="wrapper">
+
+		<!-- Nav -->
+		<nav id="nav">
+			<a href="#" class="icon fa-home"><span>Home</span></a>
+			<a href="#work" class="icon fa-folder"><span>Work</span></a>
+			<a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
+			<!-- <a href="" class="icon fa-twitter"><span>Twitter</span></a> -->
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Me -->
+			<article id="home" class="panel intro">
+				<header>
+					<h1>Nityananda Gohain</h1>
+					<p>Software Engineer | CSE Junior @ TU</p>
+					<hr>
+					<div class="connect">
+						<a href="https://github.com/nityanandagohain" target="_blank"><i class="fa fa-github"></i></a>
+						<a href="http://linkedin.com/in/nityanandagohain" target="_blank"><i class="fa fa-linkedin "></i></a>
+						<a href="https://facebook.com/nityanandagohain" target="_blank"><i class="fa fa-facebook "></i></a>
 					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="small-12 column">
-					<div class="cta text-center">
-						<a class="my-button cta-button expand form-button" href="mailto:nityanandagohain@gmail.com">Get In Touch</a>
+				</header>
+				<a href="#work" class="jumplink pic">
+					<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
+					<img src="images/me.png" alt="Nitya" />
+				</a>
+			</article>
+
+			<!-- Work -->
+			<article id="work" class="panel">
+				<header>
+					<h2>Work</h2>
+				</header>
+				<p>
+					I develop mobile apps, web apps and websites.
+				</p>
+				<section>
+					<!-- Add work here -->
+				</section>
+			</article>
+
+			<!-- Contact -->
+			<article id="contact" class="panel">
+				<header>
+					<h2>Contact Me</h2>
+				</header>
+				<!-- <form action="#" method="post">
+					<div>
+						<div class="row">
+							<div class="col-6 col-12-medium">
+								<input type="text" name="name" placeholder="Name" />
+							</div>
+							<div class="col-6 col-12-medium">
+								<input type="text" name="email" placeholder="Email" />
+							</div>
+							<div class="col-12">
+								<input type="text" name="subject" placeholder="Subject" />
+							</div>
+							<div class="col-12">
+								<textarea name="message" placeholder="Message" rows="6"></textarea>
+							</div>
+							<div class="col-12">
+								<input type="submit" value="Send Message" />
+							</div>
+						</div>
 					</div>
-				</div>
-				<div class="small-14 column">
-					<div class="my-arrow-div text-center">
-						<a href="https://github.com/nityanandagohain"><i class="fa fa-github-alt"></i></a>
-						<a href="https://gitlab.com/nityanandagohain"><i class="fa fa-gitlab"></i></a>
-						<a href="https://linkedin.com/nityanandagohain"><i class="fa fa-linkedin"></i></a>
-					</div>
-				</div>
-			</div>
+				</form> -->
+			</article>
 
-		</section>
+		</div>
 
-		 <section id="work">
-			<h2 class="text-center">Projects</h2>
-			<div class="row">
-				<p class="text-center tag-line">Here are few of my projects.</p>
-			</div>
-
-			<hr class="line">
-
-			<div class="row work-row"> <!-- even -->
-				<div class="small-12 medium-6 columns">
-					<img src="assets/images/soundhaven.png" alt="">
-				</div>
-				<div class="small-12 medium-5 medium-offset-1 columns">
-					<div class="details details-ftm">
-						<h3>SoundHaven</h3>
-						<p class="platform">Angular & electron</p>
-						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
-						<p>A cross platform native desktop Music player built using Angular and Electron</p>
-						<p>A single code base but can be built for multiple platforms</p>
-						<a class="my-button" target="_blank" href="https://github.com/nityanandagohain/SoundHaven">Get the code.</a>
-					</div>
-				</div>
-			</div>
-
-			<hr class="line">
-
-			<div class="row work-row"> <!-- odd -->
-				<div class="small-12 medium-6 medium-push-6 columns">
-					<img src="assets/images/proxy_conf.png" alt="">
-				</div>
-				<div class="small-12 medium-5 medium-pull-7 columns">
-					<div class="details details-ftm">
-						<h3>Proxy_Configuration</h3>
-						<p class="platform">Python 3</p>
-						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
-						<p>System wide proxy configuration in a single script with options to add, remove proxy and restore system default proxy configuration.</p>
-						<a class="my-button" target="_blank" href="https://github.com/nityanandagohain/proxy_configuration">Get the code.</a>
-					</div>
-				</div>
-			</div>
-
-			<hr class="line">
-
-			<div class="row work-row"> <!-- even -->
-				<div class="small-12 medium-6 columns">
-					<img src="assets/images/airhockey.png" alt="">
-				</div>
-				<div class="small-12 medium-5 medium-offset-1 columns">
-					<div class="details details-ftm">
-						<h3>AirHockey</h3>
-						<p class="platform">Python 2</p>
-						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
-						<p>Air Hockey game created using pygame. I worked on this project wile participating in <a href="https://kwoc.kossiitkgp.in/">KWoC(Kharagpur Winter of Code)</a> under <a href="https://github.com/Aniq55">Aniq Ur Rahman.</a></p>
-						<a class="my-button" target="_blank" href="https://github.com/nityanandagohain/AirHockey">Get the code.</a>
-					</div>
-				</div>
-			</div>
-
-			<hr class="line">
-
-			<div class="row work-row"> <!-- odd -->
-				<div class="small-12 medium-6 medium-push-6 columns">
-					<img src="" alt="">
-				</div>
-				<div class="small-12 medium-5 medium-pull-7 columns">
-					<div class="details details-ftm">
-						<h3>Simple-Dbms</h3>
-						<p class="platform">C</p>
-						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
-						<p>A simple database management system in c using linked list as its main data structure to maintain efficiency</p>
-						<a class="my-button" target="_blank" href="https://github.com/nityanandagohain/Simple-Dbms">Get the code.</a>
-					</div>
-				</div>
-			</div>
-
-			<hr class="line">
-		</section> 
-
-
-				<section id="experience">
-
-			<div class="row column">
-				<div class="small-12">
-					<h2 class="text-center">My Experience</h2>
-					<p class="text-center tag-line">Specialist in need. Generalist at heart.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="small-12 medium-4 columns text-center experience-topics">
-					<i class="fi-laptop"></i>
-					<h3>Languages</h3>
-					<ul>
-						<li>C/C++</li>
-						<li>JavaScript</li>
-						<li>Dart</li>
-						<li>Python</li>
-						<li>HTML</li>
-						<li>CSS</li>
-					</ul>
-				</div>
-				<div class="small-12 medium-4 columns text-center experience-topics">
-					<i class="fi-database"></i>
-					<h3>Frameworks/Libraries</h3>
-					<ul>
-						<li>NodeJS</li>
-						<li>Flutter</li>
-						<li>Angular</li>
-						<li>React Native</li>
-						<li>PyGame</li>
-						<li>Bootstrap</li>
-					</ul>
-				</div>
-				<div class="small-12 medium-4 columns text-center experience-topics">
-					<i class="fi-star"></i>
-					<h3>Tools</h3>
-					<ul>
-						<li>Vim</li>
-						<li>VS Code && Sublime</li>
-						<li>Github && GitLab</li>
-					</ul>
-				</div>
-			</div>
-
-		</section>
-	
-
-		<section id="footer-cta">
-			<h2 class="text-center">Wanna work with me?</h2>
-			<p></p>
-			<div class="row text-center">
-				<div class="small-12 medium-8 medium-offset-2 columns">
-					<p class="text-center">I'm currently available for work.</p>
-				</div>
-				<div class="small-12 columns" id="startButtonDiv">
-					<a class="my-button form-button" href="mailto:nityanandagohain@gmail.com">Start Now</a>
-				</div>
-			</div>
-		</section>
-
-		<footer id="footer">
-			<div class="row text-center">
-				<div class="small-12 medium-6 medium-offset-3 columns">
-					<p id="logo">NG</p>
-					<p id="copyright">Copyright &copy; 2018 | Nityananda Gohain </p>
-				</div>
-			</div>
-		</footer>
-
-
+		<!-- Footer -->
+		<div id="footer">
+			<ul class="copyright">
+				<li>&copy; Nityananda Gohain 2018.</li>
+			</ul>
+		</div>
 
 	</div>
-	<script src="assets/scripts/app.js" charset="utf-8"></script>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
