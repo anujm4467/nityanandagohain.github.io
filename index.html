@@ -1,109 +1,236 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<title>Portfolio|Nityananda Gohain</title>
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nityananda Gohain</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/394f5657b7.js"></script>
+    <link rel="stylesheet" href="main.css">
 </head>
 
-<body class="is-preload">
+<body>
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="landing-text">
+            <h1>Nityananda Gohain</h1>
+            <h6>FullStack Web/Mobile Engineer</h6>
+        </div>
+    </header>
+    <secction class="about" id="about">
+        <div class="container">
+            <div class="about-img" data-aos='fade-right' data-aos-delay="300">
+                <img src="images/profile.jpg" alt="">
+            </div>
+            <div class="about-details" data-aos='fade-left' data-aos-delay="600">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illum, dolores quidem assumenda quasi suscipit facilis! Quae ipsum sapiente aliquid quo. Nihil sequi incidunt, deserunt blanditiis cumque ducimus quaerat odio?
+                </p>
+                <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="#" class="icon-link">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon-link">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon-link">
+                                <i class="fab fa-github-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </secction>
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Services</h1>
+                <h6>What I can do for you</h6>
+            </div>
+            <div class="my-skills">
+                <div class="skill" data-aos='fade-right' data-aos-delay="300">
+                    <div class=" icon-container ">
+                        <i class="fas fa-layer "></i>
+                    </div>
+                    <h1>Web Design</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque, non in quod natus, tenetur dicta illum corporis nemo sint odit, pariatur laudantium? Quisquam assumenda aliquid at illo autem suscipit.
+                    </p>
+                </div>
+                <div class="skill" data-aos='fade-right' data-aos-delay="600">
+                    <div class="icon-container ">
+                        <i class="fas fa-code "></i>
+                    </div>
+                    <h1>Web Development</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque, non in quod natus, tenetur dicta illum corporis nemo sint odit, pariatur laudantium? Quisquam assumenda aliquid at illo autem suscipit.
+                    </p>
+                </div>
+                <div class="skill " data-aos='fade-right' data-aos-delay="900">
+                    <div class="icon-container ">
+                        <i class="fas fa-chart-bar "></i>
+                    </div>
+                    <h1>Product Strategy</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque, non in quod natus, tenetur dicta illum corporis nemo sint odit, pariatur laudantium? Quisquam assumenda aliquid at illo autem suscipit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	<!-- Wrapper-->
-	<div id="wrapper">
+    <section class="portfolio " id="portfolio ">
+        <div class="container ">
+            <div class="section-heading ">
+                <h1>Portfolio</h1>
+                <h6>View some of my recent work</h6>
+            </div>
+            <div class="portfolio-item ">
+                <div class="portfolio-img has-margin-right " data-aos='fade-right' data-aos-delay="300">
+                    <img src="images/portitem1.jpeg " alt=" ">
+                </div>
+                <div class="portfolio-description " data-aos='fade-left' data-aos-delay="600">
+                    <h6>Web Development</h1>
+                        <h1>Blog website</h1>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi fugit expedita tempore ullam reprehenderit non dicta ut accusamus laboriosam nobis, atque alias quo possimus, nulla, nam natus minus neque ea?
+                        </p>
+                        <a href="# " class="cta ">View Details</a>
+                </div>
+            </div>
+            <div class="portfolio-item ">
+                <div class="portfolio-description " data-aos='fade-right' data-aos-delay="900">
+                    <h6>Web Design</h1>
+                        <h1>Product Layout</h1>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi fugit expedita tempore ullam reprehenderit non dicta ut accusamus laboriosam nobis, atque alias quo possimus, nulla, nam natus minus neque ea?
+                        </p>
+                        <a href="# " class="cta ">View Details</a>
+                </div>
+                <div class="portfolio-img " data-aos='fade-left' data-aos-delay="1200">
+                    <img src="images/portitem1.jpeg " alt=" ">
+                </div>
 
-		<!-- Nav -->
-		<nav id="nav">
-			<a href="#" class="icon fa-home"><span>Home</span></a>
-			<a href="#work" class="icon fa-folder"><span>Work</span></a>
-			<a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
-			<!-- <a href="" class="icon fa-twitter"><span>Twitter</span></a> -->
-		</nav>
+            </div>
+            <div class="portfolio-item ">
+                <div class="portfolio-img has-margin-right " data-aos='fade-right' data-aos-delay="1500">
+                    <img src="images/portitem1.jpeg " alt=" ">
+                </div>
+                <div class="portfolio-description " data-aos='fade-left' data-aos-delay="1800">
+                    <h6>Web Design</h1>
+                        <h1>Product sketch</h1>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi fugit expedita tempore ullam reprehenderit non dicta ut accusamus laboriosam nobis, atque alias quo possimus, nulla, nam natus minus neque ea?
+                        </p>
+                        <a href="# " class="cta ">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="experience " id="experience ">
+        <div class="container ">
+            <div class="section-heading ">
+                <h1>Work Experience</h1>
+                <h6>Past and curret jobs</h6>
+            </div>
+            <div class="timeline" data-aos='fade-down' data-aos-delay="300">
+                <ul>
+                    <li class="date " data-date="2011-Presebt ">
+                        <h1>Google</h1>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi tempora sunt doloremque veniam velit. Corrupti culpa eaque repellendus ipsam quam ipsum quas expedita molestiae tenetur delectus reprehenderit, eos pariatur enim!
+                        </p>
+                    </li>
+                    <li class="date " data-date="2008-2011 ">
+                        <h1>Facebook</h1>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi tempora sunt doloremque veniam velit. Corrupti culpa eaque repellendus ipsam quam ipsum quas expedita molestiae tenetur delectus reprehenderit, eos pariatur enim!
+                        </p>
+                    </li>
+                    <li class="date " data-date="2002-2007 ">
+                        <h1>Microsoft</h1>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi tempora sunt doloremque veniam velit. Corrupti culpa eaque repellendus ipsam quam ipsum quas expedita molestiae tenetur delectus reprehenderit, eos pariatur enim!
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-		<!-- Main -->
-		<div id="main">
+    <section class="contact " id="contact ">
+        <div class="container ">
+            <div class="section-heading ">
+                <h1>Contact</h1>
+                <h6>Let's work together</h6>
+            </div>
+            <form action=" " data-aos='fade-up' data-aos-delay="300">
+                <label for=" name ">Name:</label>
+                <input type="text " id="name " placeholder="Enter Your Name .. " required>
+                <label for="email ">Email:</label>
+                <input type="text " id="email " placeholder="Enter Your Email .. " required>
+                <label for="services ">Services:</label>
+                <select name="services " id="service ">
+                    <option value=" ">Web Design</option>
+                    <option value=" ">Web Dev</option>
+                    <option value=" ">Web Design/Dev</option>
+                </select>
+                <label for="subject ">Subject:</label>
+                <textarea name="subject " id="subject " cols="10 " rows="10 "></textarea>
+                <input type="submit " value="Submit ">
+            </form>
+        </div>
+    </section>
+    <footer class="container ">
+        <div class="up " id="up ">
+            <i class="fas fa-chevron-up "></i>
+        </div>
+        <p>&copy: 2019 Nitya</p>
+    </footer>
 
-			<!-- Me -->
-			<article id="home" class="panel intro">
-				<header>
-					<h1>Nityananda Gohain</h1>
-					<p>Software Engineer | CSE Junior @ TU</p>
-					<hr>
-					<div class="connect">
-						<a href="https://github.com/nityanandagohain" target="_blank"><i class="fa fa-github"></i></a>
-						<a href="http://linkedin.com/in/nityanandagohain" target="_blank"><i class="fa fa-linkedin "></i></a>
-						<a href="https://facebook.com/nityanandagohain" target="_blank"><i class="fa fa-facebook "></i></a>
-					</div>
-				</header>
-				<a href="#work" class="jumplink pic">
-					<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
-					<img src="images/me.png" alt="Nitya" />
-				</a>
-			</article>
 
-			<!-- Work -->
-			<article id="work" class="panel">
-				<header>
-					<h2>Work</h2>
-				</header>
-				<p>
-					I develop mobile apps, web apps and websites.
-				</p>
-				<section>
-					<!-- Add work here -->
-				</section>
-			</article>
-
-			<!-- Contact -->
-			<article id="contact" class="panel">
-				<header>
-					<h2>Contact Me</h2>
-				</header>
-				<!-- <form action="#" method="post">
-					<div>
-						<div class="row">
-							<div class="col-6 col-12-medium">
-								<input type="text" name="name" placeholder="Name" />
-							</div>
-							<div class="col-6 col-12-medium">
-								<input type="text" name="email" placeholder="Email" />
-							</div>
-							<div class="col-12">
-								<input type="text" name="subject" placeholder="Subject" />
-							</div>
-							<div class="col-12">
-								<textarea name="message" placeholder="Message" rows="6"></textarea>
-							</div>
-							<div class="col-12">
-								<input type="submit" value="Send Message" />
-							</div>
-						</div>
-					</div>
-				</form> -->
-			</article>
-
-		</div>
-
-		<!-- Footer -->
-		<div id="footer">
-			<ul class="copyright">
-				<li>&copy; Nityananda Gohain 2018.</li>
-			</ul>
-		</div>
-
-	</div>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js " integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=" anonymous "></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
+    <script src="main.js "></script>
 </body>
 
 </html>
